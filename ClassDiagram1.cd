@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GoppaCodes.DecForm" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BWCQAAgAACAAABCAAACAQAACFgA6AAhIUHAAAAAAAgE=</HashCode>
+      <FileName>DecForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoppaCodes.DecodedMessage" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAABAAAA=</HashCode>
+      <FileName>DecodedMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GoppaContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.EncForm" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BWQAAAgAACAgABGQAACAYAACFhg6IAgAUHAAAAEAAIE=</HashCode>
+      <FileName>EncForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoppaCodes.EncodedMessage" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAABAIAAAAAAAAAAEAAAAABAAAAAABAAAA=</HashCode>
+      <FileName>EncodedMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GoppaContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.GF" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAJCgAEAABAAjQAUAIYBAAAAAQgAAAABAQCAAAAAAIA=</HashCode>
+      <FileName>GF.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LinearGoppaCode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.GlobalFunc" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAACBAAIAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>GlobalFunc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncForm" />
+      <Property Name="DecForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.GoppaContext" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAIAAQAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoppaContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncForm" />
+      <Property Name="DecForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.LinearGoppaCode" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAgABAACAAABAABAAAAACAAEoAABAAQgAAAAA=</HashCode>
+      <FileName>LinearGoppaCode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DecForm" />
+      <Property Name="EncForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.MainForm" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BUSQAAoAACAAADAAAACAUAACAhAYIAgAQGAAAAAAAIE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncForm" />
+      <Property Name="DecForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.MatrixOperations" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQAAAAAAAAAABAAABAAAAACAAAAAAAgAAAA=</HashCode>
+      <FileName>MatrixOperations.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LinearGoppaCode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.Polynomial" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKACABAAQAAAAAEAAABQAAQAEAAAAAhAAAAAAAAACA=</HashCode>
+      <FileName>Polynomial.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LinearGoppaCode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GoppaCodes.UserException" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAABAAAAAAAAAAAAAAAAAAACAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>UserException.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GoppaContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
